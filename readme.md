@@ -28,9 +28,9 @@ target = 1001, 4096 1001 18446744073709551615 máximo do size_t - 1
 
 ### Links úteis
 
-[C++](http://cplusplus.com/)
-[C++ Reference](http://cplusplus.com/reference/)
-[C++ compiler support](https://en.cppreference.com/w/cpp/compiler_support)
+* [C++](http://cplusplus.com/)
+* [C++ Reference](http://cplusplus.com/reference/)
+* [C++ compiler support](https://en.cppreference.com/w/cpp/compiler_support)
 
 
 https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/
