@@ -102,12 +102,37 @@ g++ -O3 cpp_memory_layout.cpp -o cpp_memory_layout.o
 
 ### Resource Acquisition Is Initialization or RAII
 
+Reservar o recurso no construtor e liberar o recurso no destrutor
+
+* Idioma para prevenção de leaks: memória, arquivos, sockets, threads, etc
+
+O recurso é:
+1. Aquirido pelo objeto na sua inicialização (constructor)
+2. Mantido durante o tempo de vida do objeto
+3. Liberado na destruição do objeto (destructor)
+
+
+[Object lifetime and resource management (RAII)](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp)
+
+
+[Em 01:46:30](https://youtu.be/8v-wjXiBpJE)
+
+
 Day02/code/raii.hpp
+
+
+Tests and perceptions in *Day02/code/dynamic_array_playground.cpp*
+
+1. Por que o ultimo valor volta zero?
+2. Por que dois operators = e dois métodos data() ?
 
 
 ### Dynamic Array
 
+[Em 02:09:45](https://youtu.be/8v-wjXiBpJE)
+
 Day02/code/dynamic_array.hpp
+
 
 ### Node Based Stack
 
