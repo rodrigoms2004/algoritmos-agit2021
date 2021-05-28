@@ -1,4 +1,5 @@
-//g++ -O3 dynamic_array_playground.cpp -o dynamic_array_playground.o
+// For C++ 20 support https://gcc.gnu.org/projects/cxx-status.html
+//g++ -O3 dynamic_array_playground.cpp -o dynamic_array_playground.o -std=c++20
 
 #include <iostream>
 #include "dynamic_array.hpp"
@@ -60,5 +61,10 @@ int main(int argc, char *agv[])
         cout << "Value at index " << i << " is " << xs[i] << endl; // USING OPERATOR []
     }
     cout << endl;
+
+    xs.add(42); xs.add(42); xs.add(42);
+    int c42 = std::count(xs.begin(), xs.end(), 42); // use -std=c++20 to compile
+    cout << "The number 42 appears " << c42 << " times." << endl;
+
     return 0;
 }
