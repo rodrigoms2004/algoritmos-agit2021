@@ -148,7 +148,7 @@ O recurso é:
 [Object lifetime and resource management (RAII)](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp)
 
 
-### Dynamic Array
+### Dynamic Array (baseada em índice)
 
 [Em 02:09:45](https://youtu.be/8v-wjXiBpJE)
 
@@ -212,16 +212,100 @@ dynamic_array:
 2. Por que dois operators = e dois métodos data() ?
 
 
-### Node Based Stack
+### Node Based Stack (baseada em ponteiro)
 
 [Em 02:50:00](https://youtu.be/8v-wjXiBpJE)
 
-Day02/code/node_based_stack.hpp
+*Day02/code/node_based_stack.hpp*
+
+```
+./node_based_stack.o 
+int: push an item, -: pop an item, ?: display top of stack, !: display info
+      std::stack<int> size:     1000
+node_based_stack<int> size:     1000
+      std::stack<int> size:  1000000
+      std::stack<int> size:    10000
+      std::stack<int> size:    10000
+      std::stack<int> size:     1000
+      std::stack<int> size:   100000
+      std::stack<int> size:   100000
+      std::stack<int> size:  1000000
+node_based_stack<int> size:    10000
+node_based_stack<int> size:    10000
+node_based_stack<int> size:   100000
+node_based_stack<int> size:     1000
+node_based_stack<int> size:  1000000
+node_based_stack<int> size:   100000
+node_based_stack<int> size:  1000000
+node_based_stack:
+===============================================================================
+   Name (baseline is *)   |   Dim   |  Total ms |  ns/op  |Baseline| Ops/second
+===============================================================================
+    bench_nb_stack_push * |    1000 |     0.045 |      45 |      - | 22054607.2
+     bench_std_stack_push |    1000 |     0.008 |       7 |  0.171 |129032258.1
+    bench_nb_stack_push * |   10000 |     0.651 |      65 |      - | 15361525.8
+     bench_std_stack_push |   10000 |     0.075 |       7 |  0.115 |133996167.7
+    bench_nb_stack_push * |  100000 |     1.418 |      14 |      - | 70508535.8
+     bench_std_stack_push |  100000 |     1.220 |      12 |  0.860 | 81965735.0
+    bench_nb_stack_push * | 1000000 |    16.574 |      16 |      - | 60334238.4
+     bench_std_stack_push | 1000000 |    14.623 |      14 |  0.882 | 68384817.0
+===============================================================================
+```
 
 ### Linear Search
 
-Day02/code/linear_search.hpp
+Equivalente ao find do STL
 
+[Em 02:57:57](https://youtu.be/8v-wjXiBpJE)
+
+*Day02/code/linear_search.hpp*
+
+```
+./linear_search.o 
+collection size: 10
+string: find an item, ?: display collection, !: display info
+?
+RAVZS HFKOD EOOUX LYBJS DRJSO MRCZX VOKOL LJMED FRPNU AHMRR 
+DRJSO
+found at 4
+!
+    size: 10
+capacity: 16
+   delta: 6
+fst addr: 0x55ebc1445b10
+linear_search:
+===============================================================================
+   Name (baseline is *)   |   Dim   |  Total ms |  ns/op  |Baseline| Ops/second
+===============================================================================
+ bench_dynarr_add_lsrch * |    1000 |     0.038 |      38 |      - | 26028787.8
+       bench_vec_pb_lsrch |    1000 |     0.023 |      22 |  0.586 | 44383294.1
+    bench_dynarr_add_find |    1000 |     0.036 |      36 |  0.942 | 27634997.0
+        bench_vec_pb_find |    1000 |     0.024 |      23 |  0.617 | 42186972.7
+ bench_dynarr_add_lsrch * |   10000 |     0.522 |      52 |      - | 19158446.1
+       bench_vec_pb_lsrch |   10000 |     0.263 |      26 |  0.504 | 37990312.5
+    bench_dynarr_add_find |   10000 |     0.452 |      45 |  0.866 | 22116798.8
+        bench_vec_pb_find |   10000 |     0.231 |      23 |  0.443 | 43285358.7
+ bench_dynarr_add_lsrch * |  100000 |     7.172 |      71 |      - | 13943362.9
+       bench_vec_pb_lsrch |  100000 |     5.057 |      50 |  0.705 | 19774397.8
+    bench_dynarr_add_find |  100000 |     6.992 |      69 |  0.975 | 14302748.9
+        bench_vec_pb_find |  100000 |     4.632 |      46 |  0.646 | 21587497.0
+ bench_dynarr_add_lsrch * | 1000000 |    63.629 |      63 |      - | 15716077.4
+       bench_vec_pb_lsrch | 1000000 |    46.471 |      46 |  0.730 | 21518714.7
+    bench_dynarr_add_find | 1000000 |    63.236 |      63 |  0.994 | 15813793.0
+        bench_vec_pb_find | 1000000 |    45.559 |      45 |  0.716 | 21949662.0
+===============================================================================
+```
+O iterator é capaz de desacoplar o container do algoritmo 
+
+
+
+
+
+## Dia 3 - 29/05/2021
+
+* Lista ligada supla
+* Ponteiros
+* Smart Pointers
 
 ## Aulas
 
