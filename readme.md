@@ -131,6 +131,10 @@ g++ -O3 cpp_memory_layout.cpp -o cpp_memory_layout.o
 
 ### Resource Acquisition Is Initialization or RAII
 
+[Em 01:46:30](https://youtu.be/8v-wjXiBpJE)
+
+*Day02/code/raii.hpp*
+
 Reservar o recurso no construtor e liberar o recurso no destrutor
 
 * Idioma para prevenção de leaks: memória, arquivos, sockets, threads, etc
@@ -144,21 +148,11 @@ O recurso é:
 [Object lifetime and resource management (RAII)](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp)
 
 
-[Em 01:46:30](https://youtu.be/8v-wjXiBpJE)
-
-
-Day02/code/raii.hpp
-
-
-Tests and perceptions in *Day02/code/dynamic_array_playground.cpp*
-
-1. Por que o ultimo valor volta zero?
-2. Por que dois operators = e dois métodos data() ?
-
-
 ### Dynamic Array
 
 [Em 02:09:45](https://youtu.be/8v-wjXiBpJE)
+
+*Day02/code/dynamic_array.hpp*
 
 Sempre que tiver a possibilidade, passe um capacity. Ex: vector<T>.reserve(). Melhora a performance. 
 
@@ -208,17 +202,19 @@ dynamic_array:
 ===============================================================================
 ```
 
-Day02/code/dynamic_array.hpp
-
-
 [C++ Standards Support in GCC](https://gcc.gnu.org/projects/cxx-status.html)
 
 *Day02/code/dynamic_array_playground.cpp* compile using -std=c++20 parameter
 
+#### Tests and perceptions in *Day02/code/dynamic_array_playground.cpp*
+
+1. Por que o ultimo valor volta zero?
+2. Por que dois operators = e dois métodos data() ?
+
 
 ### Node Based Stack
 
-[Em 02:09:45](https://youtu.be/8v-wjXiBpJE)
+[Em 02:50:00](https://youtu.be/8v-wjXiBpJE)
 
 Day02/code/node_based_stack.hpp
 
