@@ -307,6 +307,78 @@ O iterator é capaz de desacoplar o container do algoritmo
 * Ponteiros
 * Smart Pointers
 
+### Linear search - detalhes de implementação
+
+*Day03/code/linear_search.hpp*
+
+### Lista ligada dupla
+
+*Day03/code/doubly_linked_list.hpp*
+
+### Smart pointers
+
+*Day03/code/smart_ptr.hpp*
+*Day03/code/doubly_linked_list_alt.hpp*
+
+https://en.cppreference.com/w/cpp/utility/move
+https://en.cppreference.com/w/cpp/thread/unique_lock/lock
+
+
+### Local Buffer Optimization (LBO)
+
+*Day03/code/dynamic_array_lbo.hpp*
+
+
+https://en.cppreference.com/w/cpp/language/union
+
+
+#### G++ 11 error
+
+g++ --version
+g++ (Ubuntu 11.1.0-1ubuntu1~18.04.1) 11.1.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+
+```
+$ g++ -O3 dynamic_array_lbo.t.cpp dynamic_array_lbo.cpp -o dynamic_array_lbo.o
+
+ g++ -O3 dynamic_array_lbo.t.cpp dynamic_array_lbo.cpp -o dynamic_array_lbo.o
+In file included from dynamic_array_lbo.t.cpp:6:
+dynamic_array_lbo.hpp: In member function ‘void dynamic_array_lbo::dynamic_array<T>::move(dynamic_array_lbo::dynamic_array<T>&&)’:
+dynamic_array_lbo.hpp:302:32: error: invalid use of incomplete type ‘class dynamic_array_lbo::dynamic_array<T>’
+  302 |                 dynamic_array::~dynamic_array();
+      |                                ^~~~~~~~~~~~~~
+dynamic_array_lbo.hpp:62:11: note: declaration of ‘class dynamic_array_lbo::dynamic_array<T>’
+   62 |     class dynamic_array final
+      |           ^~~~~~~~~~~~~
+```
+
+
+#### G++ 9 works!
+
+g++-9 --version
+g++-9 (Ubuntu 9.2.1-17ubuntu1~18.04.1) 9.2.1 20191102
+Copyright (C) 2019 Free Software Foundation, Inc.
+
+```
+g++-9 -O3 dynamic_array_lbo.t.cpp dynamic_array_lbo.cpp -o dynamic_array_lbo.o
+```
+
+
+### Regular types
+
+STL
+
+### Recursão
+
+*Day03/code/lucas_numbers_memoization.t.cpp*
+
+Caso base e chamada da função
+
+
+## Dia 4 - 29/05/2021
+
+Programação Dinãmica
+
 ## Aulas
 
 * [Aula 1 (15/05)](https://youtu.be/HPkbz93krJc)
