@@ -6,6 +6,8 @@ https://www.agit.com.br/cursoalgoritmos.php
 
 ## Dia 1 - 15/05/2021
 
+[Aula](https://youtu.be/HPkbz93krJc)
+
 [Resolver os problemas](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 * Arquivos .cpp programa driver, onde fica o main()
@@ -69,6 +71,7 @@ https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/
 
 ## Dia 2 - 22/05/2021
 
+[Aula](https://youtu.be/8v-wjXiBpJE)
 
 https://msgpack.org/index.html
 
@@ -302,6 +305,8 @@ O iterator é capaz de desacoplar o container do algoritmo
 
 
 ## Dia 3 - 29/05/2021
+
+[Aula](https://youtu.be/COwItE-XCw4)
 
 * Lista ligada supla
 * Ponteiros
