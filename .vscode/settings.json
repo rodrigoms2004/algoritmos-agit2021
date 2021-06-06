@@ -4,6 +4,7 @@
     "ostream": "cpp",
     "*.tcc": "cpp",
     "fstream": "cpp",
-    "stop_token": "cpp"
+    "stop_token": "cpp",
+    "cstddef": "cpp"
   }
 }

@@ -308,15 +308,21 @@ O iterator é capaz de desacoplar o container do algoritmo
 
 [Aula](https://youtu.be/COwItE-XCw4)
 
-* Lista ligada supla
+
+
+* Lista ligada dupla
 * Ponteiros
 * Smart Pointers
 
 ### Linear search - detalhes de implementação
 
+[Em 00:00:00](https://youtu.be/COwItE-XCw4)
+
 *Day03/code/linear_search.hpp*
 
 ### Lista ligada dupla
+
+[Em 00:11:00](https://youtu.be/COwItE-XCw4)
 
 *Day03/code/doubly_linked_list.hpp*
 
