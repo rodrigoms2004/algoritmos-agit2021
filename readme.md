@@ -329,10 +329,12 @@ O iterator é capaz de desacoplar o container do algoritmo
 ### Smart pointers
 
 *Day03/code/smart_ptr.hpp*
+
 *Day03/code/doubly_linked_list_alt.hpp*
 
-https://en.cppreference.com/w/cpp/utility/move
-https://en.cppreference.com/w/cpp/thread/unique_lock/lock
+* https://www.internalpointers.com/post/beginner-s-look-smart-pointers-modern-c
+* https://en.cppreference.com/w/cpp/utility/move
+* https://en.cppreference.com/w/cpp/thread/unique_lock/lock
 
 
 ### Local Buffer Optimization (LBO)
