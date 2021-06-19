@@ -388,7 +388,9 @@ STL
 Caso base e chamada da função
 
 
-## Dia 4 - 29/05/2021
+## Dia 4 - 12/06/2021
+
+[Aula](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
 
 Programação Dinãmica
 
@@ -396,3 +398,6 @@ Programação Dinãmica
 
 * [Aula 1 (15/05)](https://youtu.be/HPkbz93krJc)
 * [Aula 2 (22/05)](https://youtu.be/8v-wjXiBpJE)
+* [Aula 3 (29/05)](https://youtu.be/COwItE-XCw4)
+* [Aula 4 (12/06)](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
