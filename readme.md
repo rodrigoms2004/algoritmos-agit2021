@@ -541,8 +541,29 @@ Is sorted descending: true
 
 ### Particionamento
 
+*Day05/code/partitioning.hpp*
+
 [Em 00:00:00](https://www.youtube.com)
 
+std::partition
+
+### Insert sort
+
+*Day05/code/sorting_insertsort.hpp*
+
+### Quick sort
+
+*Day05/code/sorting_quicksort.hpp*
+
+### Stanility in sorting
+
+*Day05/code/stability_in_sorting.t.cpp*
+
+### Heap
+
+*Day05/code/sorting_heapsort.hpp*
+
+*Day05/code/unbounded_heap.hpp*
 
 ## Aulas
 
