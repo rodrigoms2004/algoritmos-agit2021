@@ -392,7 +392,157 @@ Caso base e chamada da função
 
 [Aula](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
 
-Programação Dinãmica
+### Memorization
+
+[Em 00:00:00](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+### Programação Dinãmica
+
+*Day04/code/water_recipient_filling_dp.t.cpp*
+
+[Em 00:07:20](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+### Merging
+
+*Day04/code/merging.hpp*
+
+[Em 00:53:10](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+std::copy()
+
+* merge_copy --> std::merge
+
+### Inplace Merge
+
+*Day04/code/merging.hpp*
+
+Evita cópia (buffer extra)
+
+[Em 01:33:25](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+std::rotate() usa rotate left
+
+* inplace_merge --> std::inplace_merge
+
+### Mergesort - Dividir para conquistar (pode ser usado para paralelismo)
+
+*Day04/code/sorting_mergesort.hpp*
+
+Ordenação, estável, se ordenar por dois critérios, mantém a ordenação do primeiro critério, diferente quicksort
+ideal fazer primeira ordenação com quicksort e a segunda com o mergesort
+
+[Em 01:57:20](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+* mergesort --> std:stable_sort()
+
+[std::stable_sort](https://en.cppreference.com/w/cpp/algorithm/stable_sort)
+
+### Binary search
+
+*Day04/code/binary_search.hpp*
+
+[Em 02:20:54](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+[std::midpoint C++20](https://en.cppreference.com/w/cpp/numeric/midpoint)
+
+
+* binary_search_leftmost --> std::lower_bound
+* binary_search_rightmost --> std::upper_bound
+
+#### STL 
+
+* [std::lower_bound](https://en.cppreference.com/w/cpp/algorithm/lower_bound)
+* [std::upper_bound](https://en.cppreference.com/w/cpp/algorithm/upper_bound)
+* [std::binary_search](https://en.cppreference.com/w/cpp/algorithm/binary_search)
+
+### Between
+
+*Day04/code/binary_search.hpp*
+
+[Em 03:03:28](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+### Iterators
+
+[Em 03:08:25](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+
+* Generalização de ponteiro
+* Um objeto que aponta para algum elemento num container, array ou sequencia
+* Um par de iterators representa um intervalo fechado-aberto [begin, end]
+
+#### 5 categorias
+
+1. InputIterator, leitura
+2. OutputIterator, escrita
+3. ForwardIterator, incrementa o iterator, itera para frente
+4. BidirectionalIterator, incrementa/ decrementa o iterator, itera para frente e para trás
+5. RandomAccessIterator, faz tudo e tem acesso ao índice
+
+*um ponteiro tem todos os requisitos de um RandomAccessIterator*
+
+* [Iterator](https://www.cplusplus.com/reference/iterator/)
+
+
+### String Utilities
+
+*Day04/code/string_utilities.hpp*
+
+#### Usar GCC 9
+
+```
+g++-9 -O3 string_utilities.t.cpp string_utilities.cpp -o string_utilities.o
+```
+
+[std::string](http://www.cplusplus.com/reference/string/string/)
+
+[Em 03:31:00](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+### is_sorted and iota_helper
+
+*Day05/code/is_sorted.cpp*
+
+[Em 03:44:35](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+
+```
+Input: 2 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 7 7 7 8 8 9 9 9 
+Is sorted ascending: true
+
+Input: 5 5 1 4 2 4 9 1 5 2 3 2 2 7 6 6 7 5 2 5 8 5 1 8 8 
+Is sorted ascending: false
+
+Input: 9 9 9 8 8 7 7 7 6 6 6 6 6 5 5 5 5 5 5 4 4 4 4 4 2 
+Is sorted descending: true
+
+Input: 9 9 9 8 8 7 7 7 6 6 6 6 6 5 5 5 5 5 5 4 4 4 4 4 2 
+Is sorted descending: true
+```
+
+#### IOTA
+
+[std::iota](http://www.cplusplus.com/reference/numeric/iota/)
+
+*Day04/code/iota_helper.hpp*
+
+```
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 
+20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 
+20 23 26 29 32 35 38 41 44 47 50 53 56 59 62 65 68 71 74 77 80 83 86 89 92 
+14 11 57 58 42 88 31 36 69 58 14 17 26 79 51 57 94 33 61 90 62 72 90 25 65 
+24 22 56 57 46 80 37 41 66 57 24 27 33 73 52 57 84 39 60 82 60 68 81 33 62
+```
+
+
+
+## Dia 5 - 19/06/2021 - Heap, Priority Queue
+
+[Aula](https://www.youtube.com)
+
+
+### Particionamento
+
+[Em 00:00:00](https://www.youtube.com)
+
 
 ## Aulas
 
