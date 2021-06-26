@@ -536,14 +536,14 @@ Is sorted descending: true
 
 ## Dia 5 - 19/06/2021 - Heap, Priority Queue
 
-[Aula](https://www.youtube.com)
+[Aula](https://www.youtube.com/watch?v=LMaPhryqs2U)
 
 
 ### Particionamento
 
 *Day05/code/partitioning.hpp*
 
-[Em 00:00:00](https://www.youtube.com)
+[Em 00:00:00](https://www.youtube.com/watch?v=LMaPhryqs2U)
 
 std::partition
 
@@ -565,10 +565,17 @@ std::partition
 
 *Day05/code/unbounded_heap.hpp*
 
+## Dia 6 - 26/06/2021 - Algoritimos 
+
+
+
+
+
 ## Aulas
 
 * [Aula 1 (15/05)](https://youtu.be/HPkbz93krJc)
 * [Aula 2 (22/05)](https://youtu.be/8v-wjXiBpJE)
 * [Aula 3 (29/05)](https://youtu.be/COwItE-XCw4)
 * [Aula 4 (12/06)](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
+* [Aula 5 (19/06)](https://www.youtube.com/watch?v=LMaPhryqs2U)
 
