@@ -565,11 +565,24 @@ std::partition
 
 *Day05/code/unbounded_heap.hpp*
 
-## Dia 6 - 26/06/2021 - Algoritimos 
+## Dia 6 - 26/06/2021 - Algoritmos 
+
+### Analise de algoritmos
+
+*Day06/code/benchmarking_algorithms.t.cpp*
 
 
+*Day06/code/estimated_running_time.t.cpp*
+
+### Hashtables
+
+### Pilhas e Filas
 
 
+### Ring Buffer
+
+
+### Stack an queue STL
 
 ## Aulas
 
@@ -578,4 +591,4 @@ std::partition
 * [Aula 3 (29/05)](https://youtu.be/COwItE-XCw4)
 * [Aula 4 (12/06)](https://www.youtube.com/watch?v=a0Ytw3bSB6s)
 * [Aula 5 (19/06)](https://www.youtube.com/watch?v=LMaPhryqs2U)
-
+* [Aula 6 (26/06)](https://youtu.be/hxacEYNh7Jo)
