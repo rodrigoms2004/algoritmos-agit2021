@@ -38,3 +38,20 @@ https://leetcode.com/problems/coin-change/
 ### 97. Interleaving String
 
 https://leetcode.com/problems/interleaving-string/
+
+
+## Day 5
+
+### 215. Kth Largest Element in an Array
+ 
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+## Day 6
+
+### 1. Two Sum
+
+https://leetcode.com/problems/two-sum/
+
+### 146. LRU Cache
+
+https://leetcode.com/problems/lru-cache/

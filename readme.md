@@ -584,6 +584,11 @@ std::partition
 
 ### Stack an queue STL
 
+
+## Dia 7 - 03/07/2021
+
+
+
 ## Aulas
 
 * [Aula 1 (15/05)](https://youtu.be/HPkbz93krJc)
